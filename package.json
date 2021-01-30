@@ -1,0 +1,24 @@
+{
+  "name": "@arslivinski/minesweeper",
+  "description": "Minesweeper made in React, just to have fun! :)",
+  "version": "1.0.0-alpha.0",
+  "private": true,
+  "license": "ISC",
+  "author": {
+    "name": "Anderson Roberto Slivinski",
+    "url": "https://github.com/arslivinski"
+  },
+  "homepage": "https://github.com/arslivinski/minesweeper#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arslivinski/minesweeper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arslivinski/minesweeper/issues"
+  },
+  "keywords": [
+    "react",
+    "game",
+    "minesweeper"
+  ]
+}
