@@ -10,7 +10,13 @@
   },
   "devDependencies": {
     "@arslivinski/eslint-config": "^1.0.0-alpha.1",
-    "eslint": "^7.18.0"
+    "eslint": "^7.18.0",
+    "husky": "^4.3.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "author": {
     "name": "Anderson Roberto Slivinski",
