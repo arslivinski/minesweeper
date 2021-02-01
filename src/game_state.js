@@ -1,0 +1,11 @@
+const GAME_START = 'GAME_START';
+const GAME_RUNNING = 'GAME_RUNNING';
+const GAME_OVER = 'GAME_OVER';
+const GAME_WIN = 'GAME_WIN';
+
+export { GAME_START, GAME_RUNNING, GAME_OVER, GAME_WIN };
+
+/**
+ * @typedef {(GAME_START|GAME_RUNNING|GAME_OVER|GAME_WIN)} GameState
+ */
+

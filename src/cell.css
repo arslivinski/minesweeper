@@ -1,0 +1,85 @@
+.cell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: cornflowerblue;
+  color: black;
+  cursor: pointer;
+}
+
+.cell--flag {
+  background-color: gold;
+}
+
+.cell--flag::before {
+  content: '🚩';
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.cell--flagged {
+  background-color: aquamarine;
+}
+
+.cell--flagged::before {
+  content: '💣';
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.cell--question {
+  background-color: darkslateblue;
+}
+
+.cell--question::before {
+  content: '❓';
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.cell--open {
+  background-color: white;
+}
+
+.cell--bomb {
+  background-color: tomato;
+}
+
+.cell--bomb::before {
+  content: '💣';
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.cell--explosion {
+  background-color: tomato;
+}
+
+.cell--explosion::before {
+  content: '💥';
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

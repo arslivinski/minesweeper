@@ -1,0 +1,9 @@
+const MODE_EASY = 'MODE_EASY';
+const MODE_MEDIUM = 'MODE_MEDIUM';
+const MODE_HARD = 'MODE_HARD';
+
+export { MODE_EASY, MODE_MEDIUM, MODE_HARD };
+
+/**
+ * @typedef {(MODE_EASY|MODE_MEDIUM|MODE_HARD)} GameMode
+ */

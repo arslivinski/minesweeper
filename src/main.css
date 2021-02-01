@@ -1,0 +1,8 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  color: #FEFEFE;
+  background-color: #21252b;
+}

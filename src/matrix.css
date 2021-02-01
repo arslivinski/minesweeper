@@ -1,0 +1,22 @@
+.matrix {
+  --cell-size: 24px;
+
+  padding: 4px;
+  display: grid;
+  gap: 4px;
+}
+
+.matrix--easy {
+  grid-template-columns: repeat(9, var(--cell-size));
+  grid-template-rows: repeat(9, var(--cell-size));
+}
+
+.matrix--medium {
+  grid-template-columns: repeat(16, var(--cell-size));
+  grid-template-rows: repeat(16, var(--cell-size));
+}
+
+.matrix--hard {
+  grid-template-columns: repeat(30, var(--cell-size));
+  grid-template-rows: repeat(16, var(--cell-size));
+}

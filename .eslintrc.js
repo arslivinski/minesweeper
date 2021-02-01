@@ -19,15 +19,11 @@ module.exports = {
   },
   extends: ['@arslivinski', 'plugin:react/recommended'],
   rules: {
-    'import/no-unused-modules': [
-      ERROR,
-      {
-        missingExports: true,
-        unusedExports: true,
-        ignoreExports: ['./.*.js', './*.js', './src/main.jsx'],
-      },
-    ],
+    'arrow-body-style': [OFF],
+    'import/no-unassigned-import': [ERROR, { allow: ['**/*.css'] }],
+    'import/no-unused-modules': OFF, // Don't work very well
     'react/jsx-uses-react': OFF,
+    'react/prop-types': OFF,
     'react/react-in-jsx-scope': OFF,
   },
 };
